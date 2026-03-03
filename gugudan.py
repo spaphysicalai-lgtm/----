@@ -1,5 +1,5 @@
 def print_all_tables() -> None:
-    for dan in range(2, 10):
+    for dan in range(2, 21):
         print(f"[{dan}단]")
         for num in range(1, 10):
             print(f"{dan} x {num} = {dan * num}")
@@ -7,8 +7,8 @@ def print_all_tables() -> None:
 
 
 def print_single_table(dan: int) -> None:
-    if dan < 2 or dan > 9:
-        print("2부터 9 사이의 숫자를 입력하세요.")
+    if dan < 2 or dan > 20:
+        print("2부터 20 사이의 숫자를 입력하세요.")
         return
 
     print(f"[{dan}단]")
